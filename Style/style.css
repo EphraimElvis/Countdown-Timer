@@ -1,0 +1,78 @@
+body {
+    font-family: 'League Gothic', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #441e14;
+    color: #fff;
+}
+
+.header {
+    text-align: center;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    height: 72vh;
+}
+
+.timer-wrapper {
+    display: flex;
+    flex-direction: row;
+    /* background-color: #bc270d; */
+    background: linear-gradient(to top right, #bc270d 0%, #441e14 100%);
+    padding: 20px;
+    color: #fff;
+    border: 2px solid #6a2311;
+    margin-bottom: 20px;
+}
+
+.day-wrapper, .hour-wrapper, .minutes-wrapper, .seconds-wrapper {
+    display: flex;
+    flex-direction: column;
+    padding: 7px;
+    text-align: center;
+}
+
+.day, .hour, .minutes, .seconds {
+    font-size: 8rem;
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    /* border: 1px solid; */
+    font-weight: bolder;
+}
+
+.show-days, .show-minutes, .show-hours, .show-seconds {
+    font-size: 0.8rem;
+}
+
+.box-details {
+    flex-direction: column;
+    display: flex;
+}
+
+input {
+    width: 50%;
+    font-size: 1.5rem;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: 1rem;
+    color: #fff;
+}
+
+.footer {
+    text-align: center;
+    color: #fff;
+    /* background: #86270f; */
+    padding: 20px;
+}
